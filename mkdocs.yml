@@ -1,4 +1,5 @@
 site_name: ConsenSys Academy Bootcamp
+repo_url: https://github.com/kevinbluer/Blockchain-Developer-Bootcamp
 theme:
   name: null
   custom_dir: 'custom_theme/'

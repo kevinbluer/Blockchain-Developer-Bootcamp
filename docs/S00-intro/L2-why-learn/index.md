@@ -30,10 +30,9 @@
 </p>
 
 <h2> External Resources </h2>
+<li><a href="https://blog.ycombinator.com/building-for-the-blockchain/" target="_blank">Y Combinator: Building for the Blockchain (2017)</a> Dated but interesting!</li>
 
-    <li><a href="https://blog.ycombinator.com/building-for-the-blockchain/" target="_blank">Y Combinator: Building for the Blockchain (2017)</a> Dated but interesting!</li>
+<li><a href="https://unchained-capital.com/blog/blockchain-spectrum/" target="_blank">Why It's Hard to "Get" Bitcoin: The Blockchain Spectrum</a></li>
 
-    <li><a href="https://unchained-capital.com/blog/blockchain-spectrum/" target="_blank">Why It's Hard to "Get" Bitcoin: The Blockchain Spectrum</a></li>
-
-    <li><a href="https://vimeo.com/161183966" target="_blank" rel="noopener noreferrer">The Promise of Blockchain: Vinay Gupta</a></li>
+<li><a href="https://vimeo.com/161183966" target="_blank" rel="noopener noreferrer">The Promise of Blockchain: Vinay Gupta</a></li>
 <p></p>
