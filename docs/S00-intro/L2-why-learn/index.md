@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <link rel="stylesheet" href="../../style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" async></script>
-  <script src="../../js/text-bounce.js" async></script>  <title></title>
-</head>
-<body>
+
    
   <h1>Why Learn Blockchain?</h1>
   
@@ -49,13 +40,3 @@
 
         <li><a href="https://vimeo.com/161183966" target="_blank" rel="noopener noreferrer">The Promise of Blockchain: Vinay Gupta</a></li>
 <p></p>
-  <div class="footer">
-    <a href="https://github.com/ConsenSys-Academy/Blockchain-Developer-Bootcamp/edit/main/S00-intro/L2-why-learn/index.html" target="_blank">Edit this page on Github</a>
-
-
-    <div class="discord">
-      <img class="discord-logo" src="../../img/discord.svg" alt="Discord logo" ><a href="https://discord.gg/FrHSjSn9dX" target="_blank" >Questions? Ask on Discord! </a>  
-    </div> 
-  </div>
-</body>
-</html>
