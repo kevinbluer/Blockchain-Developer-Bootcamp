@@ -14,6 +14,6 @@ While there's enormous promise with blockchain development, it requires an aware
 
 ## External Resources
 
-- [Y Combinator: Building for the Blockchain (2017)](https://blog.ycombinator.com/building-for-the-blockchain/) Dated but interesting!
-- [Why It's Hard to "Get" Bitcoin: The Blockchain Spectrum](https://unchained-capital.com/blog/blockchain-spectrum/)
-- [The Promise of Blockchain: Vinay Gupta](https://vimeo.com/161183966)
+- [Y Combinator: Building for the Blockchain (2017)](https://blog.ycombinator.com/building-for-the-blockchain/){target=_blank} Dated but interesting!
+- [Why It's Hard to "Get" Bitcoin: The Blockchain Spectrum](https://unchained-capital.com/blog/blockchain-spectrum/){target=_blank}
+- [The Promise of Blockchain: Vinay Gupta](https://vimeo.com/161183966){target=_blank}
