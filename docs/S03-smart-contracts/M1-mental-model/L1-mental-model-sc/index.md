@@ -14,39 +14,39 @@ The following properties are desired in any smart contract system:
 
 To understand where smart contracts fit into blockchains, let's review the blockchain mental model we constructed in the first chapter.
   
-![mental model of a general blockchain]({{ 'img/S01/ag-blockchain-1.png'|url }}){: .img-wrapper}
+![mental model of a general blockchain](../../../img/S01/ag-blockchain-1.png){: .img-wrapper}
 
 Let's zoom into the **Network Interface — Consensus Mechanism — Network State** elements on the lower left corner. We'll also update the names for the Ethereum network:
 
-![diagram showing transaction processing in ethereum network]({{ 'img/S03/sc-mm.png'|url }}){: .img-wrapper}
+![diagram showing transaction processing in ethereum network](../../../img/S03/sc-mm.png){: .img-wrapper}
 
 The Ethereum Virtual Machine (EVM) is a secure execution environment for smart contracts. EVM bytecode is executed on the Ethereum Virtual Machine and the outcome constitutes the new world state. The EVM is Turing-complete, meaning it can execute more advanced code than the Bitcoin network. However, to make sure transactions don't loop forever, transactions on the Ethereum network also have gas limits, as we've discussed.
 
-![ethereum network as a series of state transitions]({{ 'img/S03/state-transition.png'|url }}){: .img-wrapper}
+![ethereum network as a series of state transitions](../../../img/S03/state-transition.png){: .img-wrapper}
 
 EVM bytecode is machine code, meaning it's very difficult for humans to read or program in. However, core developers have built higher-order smart contract languages that compile to EVM bytecode. One well-known higher-order smart contract language that compiles down to EVM bytecode is **Solidity**.
 
 Here's a diagram showing how Solidity code compiles down into EVM bytecode, which is then deployed to the Ethereum network:
 
-![diagram showing how solidity compiles to bytecode]({{ 'img/S03/evm-layers.png'|url }}){: .img-wrapper}
+![diagram showing how solidity compiles to bytecode](../../../img/S03/evm-layers.png){: .img-wrapper}
 
 ## Smart Contract Workflows: Creation and Execution
 
 There are two practical types of transactions involving smart contracts: **Contract creation** and **Message call**
 
-![two kinds of contract calls]({{ 'img/S03/evm-contract-accounts.png'|url }}){: .img-wrapper}
+![two kinds of contract calls](../../../img/S03/evm-contract-accounts.png){: .img-wrapper}
 
 The image below shows the contract creation process. When a smart contract is deployed to the network, the code is initialized and states are created with addresses.
 
-![graphic of contract creation]({{ 'img/S03/evm-contract-creation.png'|url }}){: .img-wrapper}
+![graphic of contract creation](../../../img/S03/evm-contract-creation.png){: .img-wrapper}
 
 Here, we can see the high-level process of the EVM executing a transaction to a smart contract. The transaction includes input data, which is fed into the smart contract bytecode. The outcome of the transaction contributes to the network state change.
 
-![graphic showing a smart contract execution]({{ 'img/S03/evm-txn-process.png'|url }}){: .img-wrapper}
+![graphic showing a smart contract execution](../../../S03/evm-txn-process.png){: .img-wrapper}
 
 Let's look further into how the EVM handles deployed bytecode and contract data when it executes a transaction's EVM bytecode.
 
-![EVM stack architecture]({{ 'img/S03/evm-architecture.png'|url }}){: .img-wrapper}
+![EVM stack architecture](../../../img/S03/evm-architecture.png){: .img-wrapper}
 
 While there are a lot of elements to this picture, try to keep in mind we are looking at a simple state machine. State is fed into the stack, the EVM processes the stack, and the result is either saved, if it affects the network state, or discarded, if it was only necessary for the transaction execution.
 
@@ -58,7 +58,7 @@ The state in the EVM stack is in three areas:
 
 When the EVM wishes to process a transaction, it first takes the input data, fetches the relevant contract bytecode and any world state account storage data. Then, the EVM processes the transaction data through the stack data type. Last, after the EVM has finished processed the transaction, it takes any world state data altered by the transaction and writes those changes to the world state. The d iagram below illustrates this process (note that PC is the Program Counter, essentially keeping track of the steps to measure gas):
 
-![graphic showing a smart contract execution]({{ 'img/S03/evm-execution-model.png'|url }}){: .img-wrapper}
+![graphic showing a smart contract execution](../../../img/S03/evm-execution-model.png){: .img-wrapper}
 
 The handling of memory and storage in the transaction execution process can be one of the hardest challenges for new developers in the space. We'll go over it more in the Solidity section, but be aware it's a different level of programming than a typical Javascript or Python developer encounters
 
