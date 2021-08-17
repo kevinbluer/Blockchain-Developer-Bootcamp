@@ -7,3 +7,5 @@ theme:
 google_analytics:
   - UA-262533-24
   - auto
+markdown_extensions:
+  - attr_list
