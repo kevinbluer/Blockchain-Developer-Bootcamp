@@ -42,7 +42,7 @@ The image below shows the contract creation process. When a smart contract is de
 
 Here, we can see the high-level process of the EVM executing a transaction to a smart contract. The transaction includes input data, which is fed into the smart contract bytecode. The outcome of the transaction contributes to the network state change.
 
-![graphic showing a smart contract execution](../../../S03/evm-txn-process.png)
+![graphic showing a smart contract execution](../../../img/S03/evm-txn-process.png)
 
 Let's look further into how the EVM handles deployed bytecode and contract data when it executes a transaction's EVM bytecode.
 
