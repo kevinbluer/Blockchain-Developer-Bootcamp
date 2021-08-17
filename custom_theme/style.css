@@ -128,15 +128,11 @@ details > summary {
 
 }
 
-.img-wrapper {
-  /* changed to percentage from 500px */
+img {
   max-width: 90%;
   margin: auto;
-}
-
-img {
-  width: 100%;
   padding: 8px;
+  display: block;
 }
 
 /* from css-tricks https://css-tricks.com/examples/Blockquotes/ */
